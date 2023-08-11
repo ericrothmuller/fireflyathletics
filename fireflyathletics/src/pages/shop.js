@@ -7,24 +7,24 @@ return (
 	<main className="pageHeadingDiv">
 	<h1 className="pageTitle">Shop Firefly Athletics</h1>
         <div className="productDiv">
-        <div className="product">
+        <div className="singleProduct">
             <h2>Premium Yoga Mat</h2>
-        <img src={falogo} className="singleProduct" alt="logo" />
+        <img src={falogo} className="singleProductImage" alt="logo" />
         <p><button className="productButton">Shop</button></p>
         </div>
-        <div className="product">
+        <div className="singleProduct">
             <h2>Lightweight Yoga Mat</h2>
-            <img src={falogo} className="singleProduct" alt="logo" />
+            <img src={falogo} className="singleProductImage" alt="logo" />
             <p><button className="productButton">Shop</button></p>
             </div>
-        <div className="product">
+        <div className="singleProduct">
             <h2>Yoga Blocks</h2>
-            <img src={falogo} className="singleProduct" alt="logo" />
+            <img src={falogo} className="singleProductImage" alt="logo" />
             <p><button className="productButton">Shop</button></p>
         </div>
-        <div className="product">
+        <div className="singleProduct">
             <h2>Resistance Bands</h2>
-            <img src={falogo} className="singleProduct" alt="logo" />
+            <img src={falogo} className="singleProductImage" alt="logo" />
             <p><button className="productButton">Shop</button></p>
         </div>
     </div>

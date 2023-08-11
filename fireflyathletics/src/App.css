@@ -63,12 +63,10 @@ body {
 .productDiv {
   display: flex;
   flex-wrap: wrap;
-  background-color: yellow;
   justify-content: center;
 }
 
-.product {
-  background-color: blue;
+.singleProduct {  
   width: 22%;
   margin-left: 10px;
   margin-right: 10px;
@@ -77,8 +75,7 @@ body {
   text-align: center;
 }
 
-.singleProduct {
-  background-color: red;
+.singleProductImage {
   width: 80%;
   height: auto;
 }
@@ -88,10 +85,10 @@ body {
   font-weight: 600;
   color: #000000;
   background-color: #FFDE59;
-  border: #000000 2px solid;
+  border: #000000 1px solid;
   padding: 15px;
   border-radius: 15px;
-  filter: drop-shadow(4px 4px 6px #000000);
+  filter: drop-shadow(2px 2px 2px #000000);
 }
 
 .productButton:hover {

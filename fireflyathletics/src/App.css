@@ -82,3 +82,7 @@ body {
   width: 80%;
   height: auto;
 }
+
+.productButton {
+  font-size: 22px;
+}

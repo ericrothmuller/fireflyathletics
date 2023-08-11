@@ -85,4 +85,11 @@ body {
 
 .productButton {
   font-size: 22px;
+  font-weight: 600;
+  color: #000000;
+  background-color: #FFDE59;
+  border: #000000 2px solid;
+  padding: 15px;
+  border-radius: 15px;
+  filter: drop-shadow(4px 4px 6px #000000);
 }

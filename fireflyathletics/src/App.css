@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  color: #000000;
+};
+
+.pageHeadingDiv {
+  display: flex;
+}
+
+.pageTitle {
+  text-align: center;
+  color: #000000;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.pageParagraph {
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 25px;
+}

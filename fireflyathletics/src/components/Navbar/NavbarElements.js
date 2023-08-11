@@ -13,7 +13,7 @@ export const Nav = styled.nav`
 `;
   
 export const NavLink = styled(Link)`
-  color: #ffde59;
+  color: #141A1F;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -22,10 +22,10 @@ export const NavLink = styled(Link)`
   cursor: pointer;
   font-size: 38px;
   &.active {
-    color: #2c2c2c;
+    color: #ffde59;
   };
   &:hover {
-    color: #2c2c2c;
+    color: #ffde59;
   }
 `;
   

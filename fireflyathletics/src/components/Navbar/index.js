@@ -7,8 +7,11 @@ const Navbar = () => {
     <>
       <Nav>
         <NavMenu>
-          <NavLink to="/home">
+        <NavLink to="/home">
             Home
+          </NavLink>
+          <NavLink to="/shop">
+            Shop
           </NavLink>
           <NavLink to="/contact">
             Contact Us

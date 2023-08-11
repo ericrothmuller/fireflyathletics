@@ -93,3 +93,8 @@ body {
   border-radius: 15px;
   filter: drop-shadow(4px 4px 6px #000000);
 }
+
+.productButton:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}

@@ -1,15 +1,32 @@
 import React from 'react';
+import logo from '../logo.svg';
+import falogo from '../images/Firefly-Athletics-Logo.png';
 
 const Shop = () => {
 return (
 	<main className="pageHeadingDiv">
 	<h1 className="pageTitle">Shop Firefly Athletics</h1>
-	<p className="pageParagraph">Items go here.</p>
         <div className="productDiv">
-        <div className="product">Product 1</div>
-        <div className="product">Product 2</div>
-        <div className="product">Product 3</div>
-        <div className="product">Product 4</div>
+        <div className="product">
+            <h2>Premium Yoga Mat</h2>
+        <img src={falogo} className="singleProduct" alt="logo" />
+        <p><button className="shopButton">Shop</button></p>
+        </div>
+        <div className="product">
+            <h2>Lightweight Yoga Mat</h2>
+            <img src={falogo} className="singleProduct" alt="logo" />
+            <p><button className="shopButton">Shop</button></p>
+            </div>
+        <div className="product">
+            <h2>Yoga Blocks</h2>
+            <img src={falogo} className="singleProduct" alt="logo" />
+            <p><button className="shopButton">Shop</button></p>
+        </div>
+        <div className="product">
+            <h2>Resistance Bands</h2>
+            <img src={falogo} className="singleProduct" alt="logo" />
+            <p><button className="shopButton">Shop</button></p>
+        </div>
     </div>
 	</main>
 );

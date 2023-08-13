@@ -9,6 +9,7 @@ import Contact from './pages/contact';
 import PremiumYogaMat from './pages/product-pages/premium-yoga-mat';
 import LightweightYogaMat from './pages/product-pages/lightweight-yoga-mat';
 import YogaBlocks from './pages/product-pages/yoga-blocks';
+import ResistanceBands from './pages/product-pages/resistance-bands';
 
 function App() {
 return (
@@ -22,6 +23,7 @@ return (
     <Route path='/shop/premium-yoga-mat' element={<PremiumYogaMat/>} />
     <Route path='/shop/lightweight-yoga-mat' element={<LightweightYogaMat/>} />
     <Route path='/shop/yoga-blocks' element={<YogaBlocks/>} />
+    <Route path='/shop/resistance-bands' element={<ResistanceBands/>} />
 	</Routes>
 	</Router>
 );

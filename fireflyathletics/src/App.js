@@ -7,6 +7,7 @@ import Home from './pages/home';
 import Shop from './pages/shop';
 import Contact from './pages/contact';
 import PremiumYogaMat from './pages/product-pages/premium-yoga-mat';
+import LightweightYogaMat from './pages/product-pages/lightweight-yoga-mat';
 
 function App() {
 return (
@@ -18,6 +19,7 @@ return (
     <Route path='/shop' element={<Shop/>} />
 		<Route path='/contact' element={<Contact/>} />
     <Route path='/shop/premium-yoga-mat' element={<PremiumYogaMat/>} />
+    <Route path='/shop/lightweight-yoga-mat' element={<LightweightYogaMat/>} />
 	</Routes>
 	</Router>
 );

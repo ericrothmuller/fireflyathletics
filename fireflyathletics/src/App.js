@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route}
 import Home from './pages/home';
 import Shop from './pages/shop';
 import Contact from './pages/contact';
+import PremiumYogaMat from './pages/product-pages/premium-yoga-mat';
 
 function App() {
 return (
@@ -16,6 +17,7 @@ return (
     <Route path='/home' element={<Home/>} />
     <Route path='/shop' element={<Shop/>} />
 		<Route path='/contact' element={<Contact/>} />
+    <Route path='/shop/premium-yoga-mat' element={<PremiumYogaMat/>} />
 	</Routes>
 	</Router>
 );

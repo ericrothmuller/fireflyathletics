@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../logo.svg';
 import falogo from '../images/Firefly-Athletics-Logo.png';
 
 const Shop = () => {
@@ -10,7 +9,7 @@ return (
         <div className="singleProduct">
             <h2>Premium Yoga Mat</h2>
         <img src={falogo} className="singleProductImage" alt="logo" />
-        <p><button className="productButton">Shop</button></p>
+        <p><a href="/shop/premium-yoga-mat"><button className="productButton">Shop</button></a></p>
         </div>
         <div className="singleProduct">
             <h2>Lightweight Yoga Mat</h2>

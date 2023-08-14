@@ -68,11 +68,30 @@ body {
 
 .singleProduct {  
   width: 22%;
-  margin-left: 10px;
-  margin-right: 10px;
   height: auto;
+  margin: 10px;
   border: #000000 solid 1px;
   text-align: center;
+}
+
+@media only screen and (max-width: 992px){
+  .singleProduct {  
+    width: 42%;
+    height: auto;
+    margin: 10px;
+    border: #000000 solid 1px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 576px){
+  .singleProduct {  
+    width: 92%;
+    height: auto;
+    margin: 10px;
+    border: #000000 solid 1px;
+    text-align: center;
+  }
 }
 
 .singleProductImage {

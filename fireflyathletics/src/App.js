@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header/header';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route}
 	from 'react-router-dom';
@@ -15,6 +16,7 @@ import YogaMatCarryingStrap from './pages/product-pages/yoga-mat-carrying-strap'
 function App() {
 return (
 	<Router>
+  <Header />
 	<Navbar />
 	<Routes>
     <Route exact path='/' element={<Home/>} />

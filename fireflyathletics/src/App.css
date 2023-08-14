@@ -43,6 +43,17 @@ body {
   color: #000000;
 };
 
+.headerDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerImage {
+  width: 200px;
+  height: auto;
+}
+
 .pageHeadingDiv {
   display: flex;
 }

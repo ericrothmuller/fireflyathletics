@@ -1,12 +1,14 @@
 import React from "react";
 import { Nav, NavLink, NavMenu }
     from "./NavbarElements";
+    import falogo from '../../images/Firefly-Athletics-Logo.png';
   
 const Navbar = () => {
   return (
     <>
       <Nav>
         <NavMenu>
+      <img src={falogo} className="headerImage" alt="logo" />
         <NavLink to="/home">
             Home
           </NavLink>

@@ -4,7 +4,7 @@ import styled from "styled-components";
   
 export const Nav = styled.nav`
   background: #F9F9F9;
-  height: 85px;
+  height: 100px;
   display: flex;
   justify-content: center;
   z-index: 12;

@@ -26,6 +26,11 @@ return (
             <img src={falogo} className="singleProductImage" alt="logo" />
             <p><a href="/shop/resistance-bands"><button className="productButton">Shop</button></a></p>
         </div>
+        <div className="singleProduct">
+            <h2>Yoga Mat Carrying Strap</h2>
+            <img src={falogo} className="singleProductImage" alt="logo" />
+            <p><a href="/shop/yoga-mat-carrying-strap"><button className="productButton">Shop</button></a></p>
+        </div>
     </div>
 	</main>
 );

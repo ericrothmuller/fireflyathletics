@@ -55,7 +55,7 @@ body {
 }
 
 .pageHeadingDiv {
-  display: flex;
+  display: block;
 }
 
 .pageTitle {

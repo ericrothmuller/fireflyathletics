@@ -50,8 +50,11 @@ body {
 }
 
 .headerImage {
-  width: 200px;
-  height: auto;
+  width: 100px;;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .pageHeadingDiv {

@@ -16,7 +16,6 @@ import YogaMatCarryingStrap from './pages/product-pages/yoga-mat-carrying-strap'
 function App() {
 return (
 	<Router>
-  <Header />
 	<Navbar />
 	<Routes>
     <Route exact path='/' element={<Home/>} />
